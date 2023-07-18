@@ -20,5 +20,87 @@
 }
 /* Extra small device  -- devices -- responsive -- css -- style */
 @media (max-width: 575.98px) {
+    /* -- nav -- style -- start */
+    #nav-h-bg{
+        padding: 5px;
+    }
+    .nav-container-row{
+    }
+    /* .nav-logo-col img{
+        width: 100%;
+    } */
+    .nav-menu-col ul{
+        gap: .6rem;
+    }
+    /* -- nav -- style -- end */
+    /* -- header -- style -- start */
+    #header-main{
+        padding: 10px;
+    }
+    .header-container-row{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px;
     
+    }
+    .header-col-text{
+        margin-top: 30px;
+    }
+    .header-container-col-text{
+        max-width: 100%;
+        text-align: center;
+        
+    }
+    .header-container-col-img{
+        max-width: 100%;
+    }
+    .header-col-img{
+        margin: 0;
+    }
+    .header-col-img img{
+        width: 100%;
+    }
+
+    /* -- header -- style -- end */
+    /* -- company - logo -- style -- start */
+    #com-log-section{
+        padding: 10px;
+    }
+    .company-logo-col{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 40px;
+        justify-items:center;
+        align-items: center;
+    }
+    /* -- company - logo -- style -- end */
+    /* --collection  -- style -- start */
+    .collection-container-card-row{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 10px;
+    }
+    /* -- collection -- style -- end */
+
+
+    /* --featured  -- style -- start */
+    #featured-id{
+        padding: 1rem;
+    }
+    .featured-container-row{
+        display: block;
+    }
+    .featured-container-col{
+        max-width: 100%;
+    }
+    /* .featured-col-img img{
+        width: 99%;
+    } */
+    /* -- featured -- style -- end */
+    /* --  -- style -- start */
+    /* --  -- style -- end */
+    /* --  -- style -- start */
+    /* --  -- style -- end */
+    /* --  -- style -- start */
+    /* --  -- style -- end */
 }

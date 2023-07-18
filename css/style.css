@@ -120,6 +120,7 @@ img{
 }
 .header-container-row{
     display: flex;
+   
 }
 .header-container-col-text{
     max-width: 50%;
@@ -147,8 +148,8 @@ img{
     padding: 60px 0;
 }
 .company-logo-col{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 /* -- company - logo -- style -- end --- */
 
