@@ -1,0 +1,65 @@
+/* -- shared -- style -- start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* -- shared -- style -- end --- */
+/*--- custom css ---- style ---- start */
+:root{
+    --primary-color: #F1E4FF;
+    --secound-color: #0A0826;
+    --secondary-color: #E02C6D;
+    --secondary-font-color: #787885;
+    --heading-font-color: #3A3A3A;
+    --secound-heading-font-color: #18191F;
+    --white-text-color: #ffffff;
+    --p-font-color: #6C6C6C;
+    --hover-color: #0A0826;
+    --heading-h1-font-size: 3.13rem;
+    --heading-h2-font-size: 2.13rem;
+    --heading-h3-font-size: 1.8rem;
+    --heading-h4-font-size: 1.5rem;
+    --heading-h5-font-size: 1.1rem;
+    --p-font-size: 1rem;
+}
+/*--- custom css ---- style ---- end */
+
+
+/* --  -- style -- start */
+/* --  -- style -- end --- */
+
+/* --  -- style -- start */
+/* --  -- style -- end --- */
+
+/* --  -- style -- start */
+/* --  -- style -- end --- */
+
+/* --  -- style -- start */
+/* --  -- style -- end --- */
+
+/* --  -- style -- start */
+/* --  -- style -- end --- */
+
+/* --  -- style -- start */
+/* --  -- style -- end --- */
+
+/* --  -- style -- start */
+/* --  -- style -- end --- */
+
+/* --  -- style -- start */
+/* --  -- style -- end --- */
